@@ -43,17 +43,20 @@ Run the following SQL script in your Supabase SQL Editor to enable vector extens
 -- Enable vector extension
 CREATE EXTENSION IF NOT EXISTS vector;
 
--- Create documents table
-CREATE TABLE IF NOT EXISTS documents (
-    id BIGSERIAL PRIMARY KEY,
+-- Create knowledge_chunks table
+CREATE TABLE IF NOT EXISTS knowledge_chunks (
+    id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
     content TEXT NOT NULL,
-    metadata JSONB DEFAULT '{}'::jsonb,
-    embedding VECTOR(768)
+    type TEXT NOT NULL,
+    category TEXT NOT NULL,
+    source_id TEXT NOT NULL,
+    embedding VECTOR(768),
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
 -- Create HNSW index for fast vector cosine similarity search
-CREATE INDEX IF NOT EXISTS documents_embedding_hnsw_idx 
-ON documents USING hnsw (embedding vector_cosine_ops);
+CREATE INDEX IF NOT EXISTS knowledge_chunks_embedding_hnsw_idx 
+ON knowledge_chunks USING hnsw (embedding vector_cosine_ops);
 ```
 
 ### 3. Python Setup

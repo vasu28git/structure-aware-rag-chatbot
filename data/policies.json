@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pol_001",
+    "title": "Return & Refund Policy",
+    "content": "Tradeify does not offer refunds. By completing your purchase, you agree to our Terms of Service stating all sales are strictly final. This applies to all evaluation and funded accounts regardless of whether they have been traded on.",
+    "category": "Refund Policy"
+  },
+  {
+    "id": "pol_002",
+    "title": "Shipping & Digital Delivery Policy",
+    "content": "All Tradeify evaluation and funded accounts are digitally delivered upon purchase or successful activation. Credentials and dashboard access update automatically upon checkout or passing evaluation criteria.",
+    "category": "Digital Delivery"
+  },
+  {
+    "id": "pol_003",
+    "title": "Select Flex (5-Day Payout Policy)",
+    "content": "The Select Flex Payout Policy is a traditional milestone-based payout structure for Tradeify Select funded accounts.\n\nAccount Parameters:\n- Maximum Drawdown (End of Day): 25K ($1,000), 50K ($2,000), 100K ($3,000), 150K ($4,500).\n- Daily Loss Limit: None.\n- Consistency Rule: None.\n- Starting / Max Contracts: 25K (1 mini/10 micro -> 2 mini/20 micro), 50K (2 mini/20 micro -> 4 mini/40 micro), 100K (3 mini/30 micro -> 8 mini/80 micro), 150K (3 mini/30 micro -> 12 mini/120 micro).\n\nPayout Structure:\n- Profit Split: 90% Trader / 10% Tradeify.\n- Frequency: Every 5 winning days.\n- Winning Day Threshold (min daily profit): 25K ($100), 50K ($150), 100K ($200), 150K ($250).\n- Payout Caps: Up to 50% of total profits (current balance minus starting balance), capped at $1,250 (25K), $3,000 (50K), $4,000 (100K), or $5,000 (150K) per payout.\n- Minimum Balance Requirement: None. Can request payouts immediately upon achieving 5 winning days regardless of balance.\n- Drawdown Lock: Drawdown locks at $100 above starting balance (e.g., $50,100 for 50K) automatically when reaching the lock balance or upon requesting first payout.\n- Subsequent Payouts: Must have positive net profit during each payout cycle to request a payout.",
+    "category": "Payout Policies"
+  },
+  {
+    "id": "pol_004",
+    "title": "Select Daily Payout Policy",
+    "content": "The Select Daily Payout Policy provides rapid-access daily payouts with tighter risk management for Tradeify Select funded accounts.\n\nAccount Parameters:\n- Maximum Drawdown (End of Day): 25K ($1,000), 50K ($2,000), 100K ($2,500), 150K ($3,500).\n- Daily Loss Limit: 25K ($500), 50K ($1,000), 100K ($1,250), 150K ($1,750).\n- Consistency Rule: None.\n\nBuffer System:\n- Required balance buffer before payout eligibility: 25K ($1,100), 50K ($2,100), 100K ($2,600), 150K ($3,600). Withdrawals cannot reduce balance below the buffer.\n\nPayout Structure & Caps (Daily Continuity Rule):\n- Frequency: Daily eligibility.\n- Profit Split: 90% Trader / 10% Tradeify.\n- Payout Cap: Up to 2x profit earned between payout requests, capped at $600 (25K), $1,000 (50K), $1,500 (100K), or $2,500 (150K) per cycle.\n- Minimum Payout: $250 (requires at least $125 profit since last payout).\n- Subsequent Payouts: Must have positive net profit for the current cycle. If you lose money after a payout, you must recover those losses to become net positive before requesting another payout.",
+    "category": "Payout Policies"
+  },
+  {
+    "id": "pol_005",
+    "title": "Funded Account Contract Scaling Plan",
+    "content": "Select Funded accounts use a progressive contract scaling system based on End of Day (EOD) equity growth:\n\nStarting Max Contracts:\n- 25K Account: 1 mini / 10 micros\n- 50K Account: 2 minis / 20 micros\n- 100K Account: 3 minis / 30 micros\n- 150K Account: 3 minis / 30 micros\n\nScaling Triggers (Equity Profit Thresholds):\n- Trigger 1 (+$1,500 Equity): 2 minis (25K max), 3 minis (50K), 4 minis (100K & 150K).\n- Trigger 2 (+$2,000 Equity): 4 minis (50K max), 5 minis (100K & 150K).\n- Trigger 3 (+$3,000 Equity): 8 minis (100K max & 150K).\n- Trigger 4 (+$4,500 Equity): 12 minis (150K max).\n\nRules:\n- Contract limits update the next trading day after reaching EOD equity thresholds.\n- Scaling triggers are cumulative: once unlocked, higher tiers are retained even if account balance fluctuates.\n- Evaluation accounts have access to full contract limits from the start; scaling applies only to funded accounts.",
+    "category": "Risk & Scaling"
+  },
+  {
+    "id": "pol_006",
+    "title": "Select Flex vs Select Daily Policy Comparison",
+    "content": "Comparison overview between 5-Day (Flex) and Daily Payout Policies:\n\nPayout Frequency:\n- Flex: Every 5 winning days.\n- Daily: Daily eligibility.\n\nWithdrawal Caps:\n- Flex: Up to 50% of total profits (capped at $1,250 / $3,000 / $4,000 / $5,000).\n- Daily: Up to 2x cycle profit (capped at $600 / $1,000 / $1,500 / $2,500; min $250).\n\nRisk Parameters:\n- Flex: No Daily Loss Limit; EOD Max Drawdown ($1,000 / $2,000 / $3,000 / $4,500).\n- Daily: Daily Loss Limit applies ($500 / $1,000 / $1,250 / $1,750); tighter EOD Max Drawdown ($1,000 / $2,000 / $2,500 / $3,500).\n\nBuffer & Minimum Balance:\n- Flex: No buffer/minimum balance required.\n- Daily: Buffer required ($1,100 / $2,100 / $2,600 / $3,600).\n\nShared Rules:\n- Profit Split: 90% Trader / 10% Firm on both.\n- Subsequent Payouts: Must be net positive for the payout cycle (loss recovery required).\n- Contract Scaling & Max Accounts (5 total): Identical for both policies.\n- Policy Selection: Choice is permanent per funded account and cannot be changed or exchanged.",
+    "category": "Payout Policies"
+  },
+  {
+    "id": "pol_007",
+    "title": "Path to Tradeify Elite Live Account",
+    "content": "Qualification criteria for consideration to transition to a Tradeify Elite Live account:\n\nMinimum Thresholds (for consideration):\n- 3 payouts on a single account, OR\n- 10 total payouts across all plan types since the last live transition (or first purchase).\n\nKey Principles:\n- Thresholds represent minimum eligibility requirements, not automatic qualification.\n- Tradeify evaluates traders holistically based on consistency, risk management, and overall trading behavior.\n- Transition rules apply across all plan types (Select, Growth, and Lightning).",
+    "category": "Account Progression"
+  },
+  {
+    "id": "pol_008",
+    "title": "SELECT vs Growth Evaluation Comparison Policy",
+    "content": "Detailed side-by-side comparative rules for Tradeify SELECT vs. Growth Evaluation types:\n\n1. Minimum Days to Pass:\n- SELECT: Requires a minimum of 3 trading days (due to the 40% consistency rule).\n- Growth: Requires a minimum of 1 trading day (can pass immediately upon hitting profit target).\n\n2. Consistency Requirement:\n- SELECT: 40% Consistency Rule (no single day can account for more than 40% of total profit).\n- Growth: None (no consistency requirement).\n\n3. Daily Loss Limit:\n- SELECT: None during evaluation (full intraday flexibility).\n- Growth: Yes (Soft Breach applies: $600 for 25K, $1,250 for 50K, $2,500 for 100K, $3,750 for 150K. Trading halts for the day when hit, but the account is NOT failed).\n\n4. Payout Policy Choice:\n- SELECT: Choice of Flex (5-Day) or Daily policy AFTER passing evaluation.\n- Growth: Fixed payout policy (no choice).\n\n5. Drawdown Mode:\n- Both SELECT and Growth use End-of-Day (EOD) Trailing Max Drawdown calculated at session close.",
+    "category": "Evaluation Rules"
+  },
+  {
+    "id": "pol_009",
+    "title": "Growth Evaluation Rules & Activation Policy",
+    "content": "Rules, parameters, and purchase policies for Tradeify Growth Evaluation accounts:\n\nAccount Size Parameters:\n- 25K Growth: Profit Target $1,500 | Daily Loss Limit (Soft Breach) $600 | Trailing Drawdown $1,000 | Max Contracts 1 (10 micros).\n- 50K Growth: Profit Target $3,000 | Daily Loss Limit (Soft Breach) $1,250 | Trailing Drawdown $2,000 | Max Contracts 4 (40 micros).\n- 100K Growth: Profit Target $6,000 | Daily Loss Limit (Soft Breach) $2,500 | Trailing Drawdown $3,500 | Max Contracts 8 (80 micros).\n- 150K Growth: Profit Target $9,000 | Daily Loss Limit (Soft Breach) $3,750 | Trailing Drawdown $5,000 | Max Contracts 12 (120 micros).\n\nBilling & Activation Rules:\n- One-time purchase model with no recurring subscription fees.\n- No activation fees for Growth Simulated Funded accounts.\n- Daily Activation Limit: Maximum 5 Growth Funded accounts can be activated per 24-hour UTC window.\n- Maximum 5 active sim funded accounts held simultaneously across all programs.",
+    "category": "Evaluation Rules"
+  },
+  {
+    "id": "pol_010",
+    "title": "Select Evaluation Rules & Purchase Limits Policy",
+    "content": "Rules, parameters, and purchase policies for Tradeify Select Evaluation accounts:\n\nAccount Size Parameters:\n- 25K Select: Profit Target $1,500 | EOD Max Drawdown $1,000 | No Daily Loss Limit | 40% Consistency Rule | Max Contracts 1 (10 micros).\n- 50K Select: Profit Target $3,000 ($2,500 on legacy accounts) | EOD Max Drawdown $2,000 | No Daily Loss Limit | 40% Consistency Rule | Max Contracts 4 (40 micros).\n- 100K Select: Profit Target $6,000 | EOD Max Drawdown $3,000 | No Daily Loss Limit | 40% Consistency Rule | Max Contracts 8 (80 micros).\n- 150K Select: Profit Target $9,000 | EOD Max Drawdown $4,500 | No Daily Loss Limit | 40% Consistency Rule | Max Contracts 12 (120 micros).\n\nPurchase Restrictions:\n- Maximum 15 evaluation purchases allowed within any 30-day period from first purchase.\n- Each evaluation can be reset up to 10 times within a 30-day period.\n- Maximum 5 active sim funded accounts held simultaneously.\n- Tier 1 news trading is permitted during evaluation.",
+    "category": "Evaluation Rules"
+  }
+]

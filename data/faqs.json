@@ -1,0 +1,140 @@
+[
+  {
+    "id": "faq_001",
+    "question": "How can I track my order?",
+    "answer": "Once your order ships, you will receive an email notification containing a tracking number and a direct link to track your package delivery progress.",
+    "category": "Shipping"
+  },
+  {
+    "id": "faq_002",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept major credit cards (Visa, MasterCard, American Express, Discover), PayPal, Apple Pay, and Google Pay for purchases.",
+    "category": "Payments"
+  },
+  {
+    "id": "faq_003",
+    "question": "How do simulated funded account profit shares work?",
+    "answer": "Tradeify uses a 90-10 Profit Split for all funded accounts. You receive 90% of the payout amount requested, while Tradeify retains 10%.",
+    "category": "Payouts"
+  },
+  {
+    "id": "faq_004",
+    "question": "What payout methods are accepted?",
+    "answer": "Tradeify processes payouts through Rise (primary provider with instant processing) and Plane (alternative provider). Supported withdrawal options include direct bank transfer and cryptocurrency.",
+    "category": "Payouts"
+  },
+  {
+    "id": "faq_005",
+    "question": "Can I use PayPal for payouts?",
+    "answer": "No, PayPal is not a supported payout method. Tradeify processes all payouts through Rise (primary) and Plane (alternative). Rise supports bank transfers and cryptocurrency withdrawals.",
+    "category": "Payouts"
+  },
+  {
+    "id": "faq_006",
+    "question": "How long do payouts take to process?",
+    "answer": "Payouts are usually processed within 24 to 48 hours. Daily payout policy requests benefit from a 24-hour guarantee.",
+    "category": "Payouts"
+  },
+  {
+    "id": "faq_007",
+    "question": "When do I need to complete KYC verification?",
+    "answer": "KYC verification is required only when you request your first payout. Once you request a payout, you will receive an automated email invitation to sign up with Rise and complete identity verification.",
+    "category": "KYC & Taxes"
+  },
+  {
+    "id": "faq_008",
+    "question": "Do you send 1099 tax forms?",
+    "answer": "No, Tradeify does not directly send 1099 tax forms. Tax forms related to payout income are issued directly by Rise, our payout processor.",
+    "category": "KYC & Taxes"
+  },
+  {
+    "id": "faq_009",
+    "question": "How do I download receipts or invoices for my Tradeify expenses?",
+    "answer": "You can download receipts (invoices, transaction records, or billing statements) for all your Tradeify purchases directly from the Billing page:\n\nStep 1: Navigate to the Billing page: app-f.tradeify.co/dashboard/billing\nStep 2: In the Transactions table, locate the specific transaction.\nStep 3: Click 'View Transaction' in the Action column.\nStep 4: Click the 'Download' button to save your receipt/invoice.\n\nEach receipt displays Transaction ID, Order ID, date, and amount for tax or expense records. Note that 1099 tax forms for payout income come separately from Rise.",
+    "category": "Billing"
+  },
+  {
+    "id": "faq_010",
+    "question": "Is there a minimum number of trading days required for payout?",
+    "answer": "No, there is no minimum number of trading days required before requesting a payout. The previous 7-day requirement has been removed. You can request a payout as soon as your dashboard shows eligibility.",
+    "category": "Payouts"
+  },
+  {
+    "id": "faq_011",
+    "question": "How do I request a payout?",
+    "answer": "Log into your Tradeify dashboard, select your funded account, and click 'Request Payout'. Complete KYC verification with Rise when prompted on your first request. Payout funds will be transferred to your Rise wallet.",
+    "category": "Payouts"
+  },
+  {
+    "id": "faq_012",
+    "question": "Can I get a refund?",
+    "answer": "No, Tradeify does not offer refunds. By completing your purchase, you agree to our Terms of Service stating all sales are strictly final. This applies to all evaluation and funded accounts regardless of trading activity.",
+    "category": "Refund Policy"
+  },
+  {
+    "id": "faq_013",
+    "question": "Why was I charged $1 when purchasing a free trial?",
+    "answer": "The $1 charge is a temporary credit card authorization hold used to verify card validity. It is automatically released and refunded by your bank within 3 to 5 business days.",
+    "category": "Billing"
+  },
+  {
+    "id": "faq_014",
+    "question": "I'm getting a reCAPTCHA or payment error",
+    "answer": "This error typically indicates a billing information mismatch (most commonly the zip/postal code) between your checkout entry and your card issuer records. Verify your billing address matches your card statement exactly or contact your card issuer.",
+    "category": "Billing"
+  },
+  {
+    "id": "faq_015",
+    "question": "Why was my card declined?",
+    "answer": "Common causes for card declines include:\n1. Billing Mismatch: Address or zip code entered does not match card records.\n2. Bank Blocking: Security flag by your bank (contact them to authorize Tradeify).\n3. Restricted Country: Regulatory restrictions preventing payments from specific regions.\n4. Verification Hold: Temporary $1 hold requiring card verification.\n\nTo resolve: Ensure billing details match your card statement, authorize international/online transactions with your bank, or try another payment method.",
+    "category": "Billing"
+  },
+  {
+    "id": "faq_016",
+    "question": "What happens if my payment fails when purchasing an account?",
+    "answer": "If payment fails during checkout, no account is created. Simply retry with a valid payment method. Any pending pre-authorization holds will be automatically released by your bank within 3 to 5 business days.",
+    "category": "Billing"
+  },
+  {
+    "id": "faq_017",
+    "question": "My promo code isn't working / says I can't use it",
+    "answer": "Promo codes apply to all account types unless specified otherwise. If a code fails:\n1. Open an incognito/private browser window (most effective fix).\n2. Switch browsers (Chrome, Firefox, Safari, Edge).\n3. Clear browser cookies and cache for the Tradeify website.\nIf the problem persists, reach out to Tradeify support.",
+    "category": "Promo Codes"
+  },
+  {
+    "id": "faq_018",
+    "question": "I saw a promo code on Instagram/Facebook but it doesn't work",
+    "answer": "Social media platforms often continue displaying promotional posts long after promotions end. Check active discount codes directly on tradeify.co or in your email inbox.",
+    "category": "Promo Codes"
+  },
+  {
+    "id": "faq_019",
+    "question": "If I trade after requesting a payout, which cycle do those profits count toward?",
+    "answer": "Before payout approval: All profits (before and after request) count toward the current payout cycle. If denied, everything stays in the current cycle.\n\nAfter payout approval (same session): Profits made after approval but within the same trading session (6 PM EST to 5 PM EST next day) count toward your NEXT payout cycle.\n\nBest practice: Wait for a new trading session to start after payout approval before resuming trading.",
+    "category": "Trading & Payouts"
+  },
+  {
+    "id": "faq_020",
+    "question": "What are the main differences between SELECT Evaluation and Growth Evaluation?",
+    "answer": "SELECT vs. Growth Evaluation differences:\n- Minimum Days to Pass: SELECT requires 3 days (due to 40% consistency rule); Growth can be passed in 1 day (0 consistency rule).\n- Daily Loss Limit: SELECT has NO daily loss limit during evaluation; Growth HAS a soft breach daily loss limit ($600 / $1,250 / $2,500 / $3,750).\n- Payout Policy Choice: SELECT lets you choose between Flex (5-Day) or Daily payout policies AFTER passing; Growth has a fixed payout structure.\n- Drawdown Mode: Both use End of Day (EOD) trailing drawdown.",
+    "category": "Evaluation Comparison"
+  },
+  {
+    "id": "faq_021",
+    "question": "Does Growth Evaluation have a consistency rule?",
+    "answer": "No. Growth Evaluation has NO consistency rule. You can hit 100% of your profit target in a single day and pass immediately in 1 trading day.",
+    "category": "Evaluation Rules"
+  },
+  {
+    "id": "faq_022",
+    "question": "What is a soft breach daily loss limit in Growth Evaluation?",
+    "answer": "A soft breach daily loss limit means if your account balance hits the daily loss threshold ($600 for 25K, $1,250 for 50K, $2,500 for 100K, $3,750 for 150K), your trading for that day is automatically halted, but your account is NOT failed or closed.",
+    "category": "Evaluation Rules"
+  },
+  {
+    "id": "faq_023",
+    "question": "What are the purchase limits and account caps for Tradeify accounts?",
+    "answer": "Purchase and account limits:\n- Maximum 15 evaluation purchases within any 30-day period.\n- Up to 10 resets per evaluation within a 30-day period.\n- Maximum 5 active sim funded accounts held simultaneously.\n- Growth Activation Limit: Maximum 5 Growth Funded accounts activated per day (resets every 24 hours UTC).",
+    "category": "Account Limits"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "prod_001",
+    "name": "25K Select Evaluation Account",
+    "category": "Evaluation Accounts",
+    "price": 0,
+    "stock": 999,
+    "description": "Tradeify 25K Select Evaluation Account. Parameters: $25,000 Starting Balance, Profit Target: $1,500, Maximum End-of-Day Trailing Drawdown: $1,000, Daily Loss Limit: None during evaluation (full intraday flexibility), Consistency Rule: 40% (no single day can represent more than 40% of total profit, requiring a minimum of 3 trading days to pass), Maximum Position Limit: 1 Mini Contract / 10 Micro Contracts.\n\nFeatures & Benefits:\n- Choice of Payout Policy AFTER passing: Select Flex (5-Day milestone payouts with larger caps) or Select Daily (smaller, frequent daily payouts with buffer system).\n- No activation fees and instant activation upon hitting the target.\n- Tier 1 news trading allowed.\n- Purchase limits: Maximum 15 evaluation purchases per 30-day period, up to 10 resets per account per 30-day period, up to 5 sim funded active accounts simultaneously."
+  },
+  {
+    "id": "prod_002",
+    "name": "50K Select Evaluation Account",
+    "category": "Evaluation Accounts",
+    "price": 0,
+    "stock": 999,
+    "description": "Tradeify 50K Select Evaluation Account. Parameters: $50,000 Starting Balance, Profit Target: $3,000 (note: accounts purchased prior to new dashboard launch retain $2,500 target), Maximum End-of-Day Trailing Drawdown: $2,000, Daily Loss Limit: None during evaluation (full intraday flexibility), Consistency Rule: 40% (no single day can represent more than 40% of total profit, requiring a minimum of 3 trading days to pass), Maximum Position Limit: 4 Mini Contracts / 40 Micro Contracts.\n\nFeatures & Benefits:\n- Choice of Payout Policy AFTER passing: Select Flex (5-Day milestone payouts with larger caps) or Select Daily (smaller, frequent daily payouts with buffer system).\n- No activation fees and instant activation upon hitting the target.\n- Tier 1 news trading allowed.\n- Purchase limits: Maximum 15 evaluation purchases per 30-day period, up to 10 resets per account per 30-day period, up to 5 sim funded active accounts simultaneously."
+  },
+  {
+    "id": "prod_003",
+    "name": "100K Select Evaluation Account",
+    "category": "Evaluation Accounts",
+    "price": 0,
+    "stock": 999,
+    "description": "Tradeify 100K Select Evaluation Account. Parameters: $100,000 Starting Balance, Profit Target: $6,000, Maximum End-of-Day Trailing Drawdown: $3,000, Daily Loss Limit: None during evaluation (full intraday flexibility), Consistency Rule: 40% (no single day can represent more than 40% of total profit, requiring a minimum of 3 trading days to pass), Maximum Position Limit: 8 Mini Contracts / 80 Micro Contracts.\n\nFeatures & Benefits:\n- Choice of Payout Policy AFTER passing: Select Flex (5-Day milestone payouts with larger caps) or Select Daily (smaller, frequent daily payouts with buffer system).\n- No activation fees and instant activation upon hitting the target.\n- Tier 1 news trading allowed.\n- Purchase limits: Maximum 15 evaluation purchases per 30-day period, up to 10 resets per account per 30-day period, up to 5 sim funded active accounts simultaneously."
+  },
+  {
+    "id": "prod_004",
+    "name": "150K Select Evaluation Account",
+    "category": "Evaluation Accounts",
+    "price": 0,
+    "stock": 999,
+    "description": "Tradeify 150K Select Evaluation Account. Parameters: $150,000 Starting Balance, Profit Target: $9,000, Maximum End-of-Day Trailing Drawdown: $4,500, Daily Loss Limit: None during evaluation (full intraday flexibility), Consistency Rule: 40% (no single day can represent more than 40% of total profit, requiring a minimum of 3 trading days to pass), Maximum Position Limit: 12 Mini Contracts / 120 Micro Contracts.\n\nFeatures & Benefits:\n- Choice of Payout Policy AFTER passing: Select Flex (5-Day milestone payouts with larger caps) or Select Daily (smaller, frequent daily payouts with buffer system).\n- No activation fees and instant activation upon hitting the target.\n- Tier 1 news trading allowed.\n- Purchase limits: Maximum 15 evaluation purchases per 30-day period, up to 10 resets per account per 30-day period, up to 5 sim funded active accounts simultaneously."
+  },
+  {
+    "id": "prod_005",
+    "name": "25K Growth Evaluation Account",
+    "category": "Evaluation Accounts",
+    "price": 0,
+    "stock": 999,
+    "description": "Tradeify 25K Growth Evaluation Account. Parameters: $25,000 Starting Balance, Profit Target: $1,500, Daily Loss Limit: $600 (Soft Breach - trading stops for the day if reached, account is NOT failed), Maximum End-of-Day Trailing Drawdown: $1,000, Consistency Rule: None (can pass in 1 single trading day), Maximum Position Size: 1 Contract / 10 Micros.\n\nFeatures & Benefits:\n- Fastest stepping stone to getting funded: pass immediately in 1 trading day.\n- Fixed payout policy structure (no choice required after passing).\n- One-time purchase with no recurring subscription fees and no activation fees.\n- Daily Activation Limit: Max 5 Growth Funded accounts activated per day (resets every 24 hours UTC), max 5 sim funded active accounts at any time."
+  },
+  {
+    "id": "prod_006",
+    "name": "50K Growth Evaluation Account",
+    "category": "Evaluation Accounts",
+    "price": 0,
+    "stock": 999,
+    "description": "Tradeify 50K Growth Evaluation Account. Parameters: $50,000 Starting Balance, Profit Target: $3,000, Daily Loss Limit: $1,250 (Soft Breach - trading stops for the day if reached, account is NOT failed), Maximum End-of-Day Trailing Drawdown: $2,000, Consistency Rule: None (can pass in 1 single trading day), Maximum Position Size: 4 Contracts / 40 Micros (5 Contracts / 50 Micros for accounts purchased before Sept 12, 2025).\n\nFeatures & Benefits:\n- Fastest stepping stone to getting funded: pass immediately in 1 trading day.\n- Fixed payout policy structure (no choice required after passing).\n- One-time purchase with no recurring subscription fees and no activation fees.\n- Daily Activation Limit: Max 5 Growth Funded accounts activated per day (resets every 24 hours UTC), max 5 sim funded active accounts at any time."
+  },
+  {
+    "id": "prod_007",
+    "name": "100K Growth Evaluation Account",
+    "category": "Evaluation Accounts",
+    "price": 0,
+    "stock": 999,
+    "description": "Tradeify 100K Growth Evaluation Account. Parameters: $100,000 Starting Balance, Profit Target: $6,000, Daily Loss Limit: $2,500 (Soft Breach - trading stops for the day if reached, account is NOT failed), Maximum End-of-Day Trailing Drawdown: $3,500, Consistency Rule: None (can pass in 1 single trading day), Maximum Position Size: 8 Contracts / 80 Micros (10 Contracts / 100 Micros for accounts purchased before Sept 12, 2025).\n\nFeatures & Benefits:\n- Fastest stepping stone to getting funded: pass immediately in 1 trading day.\n- Fixed payout policy structure (no choice required after passing).\n- One-time purchase with no recurring subscription fees and no activation fees.\n- Daily Activation Limit: Max 5 Growth Funded accounts activated per day (resets every 24 hours UTC), max 5 sim funded active accounts at any time."
+  },
+  {
+    "id": "prod_008",
+    "name": "150K Growth Evaluation Account",
+    "category": "Evaluation Accounts",
+    "price": 0,
+    "stock": 999,
+    "description": "Tradeify 150K Growth Evaluation Account. Parameters: $150,000 Starting Balance, Profit Target: $9,000, Daily Loss Limit: $3,750 (Soft Breach - trading stops for the day if reached, account is NOT failed), Maximum End-of-Day Trailing Drawdown: $5,000, Consistency Rule: None (can pass in 1 single trading day), Maximum Position Size: 12 Contracts / 120 Micros (15 Contracts / 150 Micros for accounts purchased before Sept 12, 2025).\n\nFeatures & Benefits:\n- Fastest stepping stone to getting funded: pass immediately in 1 trading day.\n- Fixed payout policy structure (no choice required after passing).\n- One-time purchase with no recurring subscription fees and no activation fees.\n- Daily Activation Limit: Max 5 Growth Funded accounts activated per day (resets every 24 hours UTC), max 5 sim funded active accounts at any time."
+  }
+]
