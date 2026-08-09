@@ -1,6 +1,8 @@
-# Multi-Source E-Commerce & Support RAG System
+# Query Classifier & Category Retriever System
 
-A Retrieval-Augmented Generation (RAG) system built with Supabase Vector (pgvector) and Google Gemini API to index and query products, FAQs, and store policies.
+A vector-embedding based Query Category Classifier and Retriever built with Supabase Vector (pgvector) and Gemini Embeddings.
+
+Classifies incoming questions into top matching categories stored in the database and retrieves top knowledge chunks without generative LLM calls.
 
 ## Project Structure
 
@@ -15,9 +17,10 @@ A Retrieval-Augmented Generation (RAG) system built with Supabase Vector (pgvect
 │   ├── ingest.py
 │   └── requirements.txt
 ├── query/
-│   ├── retriever.py
-│   ├── generate.py
-│   ├── ask.py
+│   ├── classifier.py        # Rule-based query category classifier
+│   ├── retriever.py         # Category-filtered vector search
+│   ├── setup_rpc.sql        # Supabase SQL functions for classification & search
+│   ├── ask.py              # CLI entry point to classify & retrieve top categories
 │   └── requirements.txt
 ├── .env
 └── README.md
@@ -27,62 +30,46 @@ A Retrieval-Augmented Generation (RAG) system built with Supabase Vector (pgvect
 
 ### 1. Environment Configuration
 
-Create a `.env` file in the root directory with the following variables:
+Create a `.env` file in the root directory:
 
 ```env
 SUPABASE_URL=your_supabase_project_url
-SUPABASE_KEY=your_supabase_service_key
+SUPABASE_KEY=your_supabase_service_role_key
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
 ### 2. Database Setup (Supabase / pgvector)
 
-Run the following SQL script in your Supabase SQL Editor to enable vector extensions and create the `documents` table with an HNSW index:
-
-```sql
--- Enable vector extension
-CREATE EXTENSION IF NOT EXISTS vector;
-
--- Create knowledge_chunks table
-CREATE TABLE IF NOT EXISTS knowledge_chunks (
-    id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
-    content TEXT NOT NULL,
-    type TEXT NOT NULL,
-    category TEXT NOT NULL,
-    source_id TEXT NOT NULL,
-    embedding VECTOR(768),
-    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-);
-
--- Create HNSW index for fast vector cosine similarity search
-CREATE INDEX IF NOT EXISTS knowledge_chunks_embedding_hnsw_idx 
-ON knowledge_chunks USING hnsw (embedding vector_cosine_ops);
-```
+Run `query/setup_rpc.sql` in your Supabase SQL Editor to enable vector extensions and create the `classify_query` RPC function.
 
 ### 3. Python Setup
 
-Install dependencies for ingestion and query modules:
-
 ```bash
-# Ingestion dependencies
-pip install -r ingestion/requirements.txt
-
-# Query dependencies
 pip install -r query/requirements.txt
 ```
 
 ## Usage
 
-### Ingest Data
-Parse JSON datasets (`products.json`, `faqs.json`, `policies.json`), generate Gemini embeddings (`text-embedding-004`), and insert chunks into Supabase pgvector:
+### Query Top K Categories
 
 ```bash
-python ingestion/ingest.py
+python query/ask.py "How do I request a payout?"
 ```
 
-### Query System
-Ask a natural language question via command line:
+Output:
+```text
+============================================================
+QUERY CATEGORY CLASSIFIER
+============================================================
+Query: 'How do I request a payout?'
+Top K: 3
 
-```bash
-python query/ask.py "What is the return policy for electronics?"
+Top K Categories from Database:
+------------------------------------------------------------
+Rank   Category                            Similarity Score
+------------------------------------------------------------
+1      Payouts                             0.6745
+2      Trading & Payouts                   0.6696
+3      KYC & Taxes                         0.6571
+------------------------------------------------------------
 ```
